@@ -16,9 +16,3 @@ RUN \
   apt-get purge -y curl apt-transport-https && \
   apt-get autoremove -y && \
   apt-get clean all
-
-# Define working directory.
-WORKDIR /data
-
-# Define default command.
-CMD ["bash"]
